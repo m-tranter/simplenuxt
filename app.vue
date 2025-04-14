@@ -12,6 +12,8 @@ await callOnce(async () => {
   );
   if (data.value) {
     entry.value = data.value;
+  } else {
+    entry.value = {};
   }
 });
 </script>
