@@ -1,0 +1,22 @@
+*:root {
+  --cec-green: #206c49;
+}
+
+.footer,
+.header {
+  background-color: Teal;
+}
+
+.footer p,
+.header p {
+  color: White;
+  padding: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--cec-green);
+}
